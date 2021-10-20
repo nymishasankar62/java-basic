@@ -1,8 +1,32 @@
 package objectclass;
-
+import objectclass.util;
 public class student {
 	String name;
 	int age;
+	
+	/**
+	 * default constructor -- Nymisha
+	 * @param string 
+	 */
+	public student(student string) {}
+	/**
+	 * shiny constructor                                                                     
+	 * @return 
+	 */
+	public student() {
+		this.name=name;
+	}
+	/**
+	 * Harshi constructor
+	 * @param name
+	 * @param age
+	 */
+	
+	public student(String name, int age) {
+		super();
+		this.name = name;
+		this.age = util.incrementByTen(age);
+	}
 	static String COLLEGE_Name = "NIT";
 	public String getName() {
 		return name;
