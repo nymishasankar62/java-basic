@@ -8,12 +8,12 @@ public class student {
 	 * default constructor -- Nymisha
 	 * @param string 
 	 */
-	public student(student string) {}
+	public student() {}
 	/**
 	 * shiny constructor                                                                     
 	 * @return 
 	 */
-	public student() {
+	public student(String name) {
 		this.name=name;
 	}
 	/**
@@ -25,6 +25,7 @@ public class student {
 	public student(String name, int age) {
 		super();
 		this.name = name;
+		this.age=age+2;
 		this.age = util.incrementByTen(age);
 	}
 	static String COLLEGE_Name = "NIT";
