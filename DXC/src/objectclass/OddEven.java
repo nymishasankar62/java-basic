@@ -15,7 +15,7 @@ public class OddEven {
 			System.out.println(number +" is even number");
 		}
 		else {
-			System.out.println(number+ "is odd number");
+			System.out.println(number+ " is odd number");
 		}
 	}
 

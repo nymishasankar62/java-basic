@@ -10,7 +10,7 @@ class Bike2 extends vehicle{
 		System.out.println("vehicle is not running");
 	}
 	public static void main(String args[]){
-		Bike2 obj = new Bike2();  
+		Bike obj =  ew Bike();  
 		obj.run();
 	}
 }

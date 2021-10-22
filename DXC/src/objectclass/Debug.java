@@ -13,7 +13,8 @@ public class Debug {
 			student mystudent = new student();
 			student yourstudent = new student("anjali");
 			for(int a=0; a<5; a++) {
-				int f =a+5 *3;
+				int f = a+5 *3;
+				System.out.println("the no is="+f);
 			}
 		}
 }

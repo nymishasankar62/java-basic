@@ -1,7 +1,7 @@
 package basics;
 
 public class Calculator {
-	int add(int a, int b) {
+	public int add(int a, int b) {
 		return a+b;
 	}
 	int sub(int a, int b ) {

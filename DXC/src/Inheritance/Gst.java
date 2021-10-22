@@ -14,5 +14,5 @@ public class Gst extends IncomeTax {
 		}
 		return tax;
 	}
-
+	
 }
