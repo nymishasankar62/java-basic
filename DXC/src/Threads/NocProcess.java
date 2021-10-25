@@ -7,6 +7,8 @@ public class NocProcess {
 
 		FeeThread feeThread = new FeeThread();
 		feeThread.start();
+		OfficeBoy Raju = new OfficeBoy("shanu the office boy");
+		Raju.start();
 
 
 	}
