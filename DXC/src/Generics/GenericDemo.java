@@ -8,6 +8,9 @@ public class GenericDemo {
 		Account<Integer> gpayAccount = new Account<>();
 		gpayAccount.setObj(987654321);
 		System.out.println("gpay account no is " + gpayAccount.getObj());
+		Account <Float> phonePeAccount = new Account<>();
+		phonePeAccount.setObj(3.14f);
+		System.out.println("phonepay account no is"+ phonePeAccount.getObj());
 	}
 
 }
